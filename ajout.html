@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="controle.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="ajout.php" method="post" onsubmit="return verif()">
+        <p> Cin: <input type="text" name="cin" id="cin"></p>
+        <p> Nom : <input type="text" name="nom" id="nom"></p>
+        <p> Prenom : <input type="text" name="prenom" id="prenom"></p>
+        <p> Tel: <input type="tel" name="tel" id="tel"></p>
+        <hr>
+        <p> Article : <select name="article" id="article">
+            <option value="">selectionner un article </option>
+            <option value="36">luth du hedi jouini</option>
+            <option value="45">manuscrit d'abou el kacem eche</option>
+            <option value="120">les gants du gardien attouga</option>
+            <option value="212">voiture 202 bh</option>
+        </select></p>
+        <p>Prix Propose <input type="text" name="prix" id="prix"> en DT</p>
+        <p><input type="submit" value="Valider"> <input type="reset" value="Annuler"></p>
+
+    </form>
+</body>
+</html>
